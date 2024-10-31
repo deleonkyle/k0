@@ -1,0 +1,25 @@
+.custom-pagination .page-item.active .page-link {
+    background-color: #dc3545; /* Bootstrap's red color */
+    color: white; /* White text color for active pagination */
+    border-color: #dc3545;
+  }
+  
+  .custom-pagination .page-link {
+    color: #dc3545; /* Red color for pagination links */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    border-color: #dc3545;
+  }
+  
+  .custom-pagination .page-link:hover {
+    background-color: rgba(220, 53, 69, 0.1); /* Light red on hover */
+    color: #dc3545; /* Maintain red text color on hover */
+    border-color: #dc3545;
+  }
+  
+  .custom-pagination .page-item.disabled .page-link {
+    color: gray; /* Gray color for disabled state */
+    background-color: transparent; /* Transparent background for disabled state */
+    cursor: not-allowed; /* Change cursor to indicate non-clickable */
+    
+  }
+  
